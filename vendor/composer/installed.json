@@ -1,0 +1,203 @@
+[
+    {
+        "name": "codeigniter4/framework",
+        "version": "v4.0.0-rc.3",
+        "version_normalized": "4.0.0.0-RC3",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/codeigniter4/framework.git",
+            "reference": "b84ca6e7b71d5f83003a327121df0d39286bcf8f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/codeigniter4/framework/zipball/b84ca6e7b71d5f83003a327121df0d39286bcf8f",
+            "reference": "b84ca6e7b71d5f83003a327121df0d39286bcf8f",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-intl": "*",
+            "kint-php/kint": "^2.1",
+            "php": ">=7.2",
+            "psr/log": "^1.1",
+            "zendframework/zend-escaper": "^2.5"
+        },
+        "require-dev": {
+            "codeigniter4/codeigniter4-standard": "^1.0",
+            "mikey179/vfsstream": "1.6.*",
+            "phpunit/phpunit": "^7.0",
+            "squizlabs/php_codesniffer": "^3.3"
+        },
+        "time": "2019-10-19T13:58:00+00:00",
+        "type": "project",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "CodeIgniter\\": "system/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "The CodeIgniter framework v4",
+        "homepage": "https://codeigniter.com"
+    },
+    {
+        "name": "kint-php/kint",
+        "version": "2.2",
+        "version_normalized": "2.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/kint-php/kint.git",
+            "reference": "b091715eadaf6e1a7ef927f3e81d1004611d2aea"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/kint-php/kint/zipball/b091715eadaf6e1a7ef927f3e81d1004611d2aea",
+            "reference": "b091715eadaf6e1a7ef927f3e81d1004611d2aea",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.1.2"
+        },
+        "require-dev": {
+            "friendsofphp/php-cs-fixer": "^2.0",
+            "phpunit/phpunit": "^4.0",
+            "symfony/finder": "^2.6"
+        },
+        "time": "2017-09-06T17:46:03+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "init.php"
+            ],
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Rokas Šleinius",
+                "homepage": "https://github.com/raveren"
+            },
+            {
+                "name": "Jonathan Vollebregt",
+                "homepage": "https://github.com/jnvsor"
+            },
+            {
+                "name": "Contributors",
+                "homepage": "https://github.com/kint-php/kint/graphs/contributors"
+            }
+        ],
+        "description": "Kint - debugging tool for PHP developers",
+        "homepage": "https://kint-php.github.io/kint/",
+        "keywords": [
+            "debug",
+            "kint",
+            "php"
+        ]
+    },
+    {
+        "name": "psr/log",
+        "version": "1.1.2",
+        "version_normalized": "1.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/log.git",
+            "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/log/zipball/446d54b4cb6bf489fc9d75f55843658e6f25d801",
+            "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2019-11-01T11:05:21+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Log\\": "Psr/Log/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for logging libraries",
+        "homepage": "https://github.com/php-fig/log",
+        "keywords": [
+            "log",
+            "psr",
+            "psr-3"
+        ]
+    },
+    {
+        "name": "zendframework/zend-escaper",
+        "version": "2.6.1",
+        "version_normalized": "2.6.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/zendframework/zend-escaper.git",
+            "reference": "3801caa21b0ca6aca57fa1c42b08d35c395ebd5f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/zendframework/zend-escaper/zipball/3801caa21b0ca6aca57fa1c42b08d35c395ebd5f",
+            "reference": "3801caa21b0ca6aca57fa1c42b08d35c395ebd5f",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.6 || ^7.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^5.7.27 || ^6.5.8 || ^7.1.2",
+            "zendframework/zend-coding-standard": "~1.0.0"
+        },
+        "time": "2019-09-05T20:03:20+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.6.x-dev",
+                "dev-develop": "2.7.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Zend\\Escaper\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "description": "Securely and safely escape HTML, HTML attributes, JavaScript, CSS, and URLs",
+        "keywords": [
+            "ZendFramework",
+            "escaper",
+            "zf"
+        ],
+        "abandoned": "laminas/laminas-escaper"
+    }
+]
